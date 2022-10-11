@@ -43,12 +43,7 @@
     "vitest": "^0.23.0",
     "vue-tsc": "^0.40.7"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
-    "*.{js,ts,vue,json}": "eslint --fix"
+    "*.{vue,js,ts,tsx,jsx}": ["npm run lint", "prettier --write"]
   }
 }
