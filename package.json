@@ -48,6 +48,6 @@
     }
   },
   "lint-staged": {
-    "*.{js,ts,vue,json}": "npm run lint"
+    "*.{js,ts,vue,json}": "eslint --fix"
   }
 }
