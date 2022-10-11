@@ -11,6 +11,7 @@
 <script setup lang="ts">
 import { computed, reactive, ref } from 'vue';
 const aa = 'asdf';
+const bb = 'asdf';
 const msg = ref('消息提示');
 const user = reactive({
   name: '张三',
